@@ -51,7 +51,7 @@
         <table>
           <tr>
             <td> <label for="first">First Name:</label></td>
-            <td><input type="text" name="fname" id=first></td>
+            <td><input type="text" name="fname" id=first required></td>
           </tr>
           <tr>
             <td><label for="last">Last Name:</label></td>
@@ -68,20 +68,20 @@
               <label>Current Address:</label>
             </td>
             <td><label for="address1">Flat No./House No.</label></td>
-            <td><input type="Address" id="address1"></td>
+            <td><input type="Address" id="address1" required></td>
           </tr>
           <tr>
             <td> <label for="address2">Locality</label></td>
-            <td><input type="Address" id="address2"><br></td>
+            <td><input type="Address" id="address2" required><br></td>
           </tr>
           <tr>
             <td> <label for="address3">City</label></td>
-            <td><input type="Address" id="address3"></td>
+            <td><input type="Address" id="address3" required></td>
           </tr>
         </table>
 
        <br>
-      <label for="check_addr"><b>Is Current address and Permanent address same?&nbsp</b></label><input type="radio" id="check_addr" name="addr_check">Yes<input type="radio" name="addr_check">No<br> 
+      <label for="check_addr"><b>Is Current address and Permanent address same?&nbsp</b></label><input type="radio" id="check_addr" name="addr_check" value="Yes" required >Yes<input type="radio" name="addr_check" value="No">No<br> 
        
       <table>
         <tr>
